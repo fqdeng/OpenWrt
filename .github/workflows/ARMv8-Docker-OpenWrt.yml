@@ -6,7 +6,7 @@ on:
     - cron: 0 21 * * 5
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/fqdeng/lede
   REPO_BRANCH: master
   CONFIG_FILE: configs/armv8-docker.config
   DIY_SCRIPT: diy-script.sh
@@ -133,7 +133,7 @@ jobs:
           **This is Docker Firmware for Armvirt 64**
           * 这是 ARMv8 Docker 镜像底包，每周六更新
           默认 IP：192.168.1.1 默认密码：password
-          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/coolsnowwolf/lede)更新记录】
+          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/fqdeng/lede)更新记录】
           ${{ env.VERSION_INFO }}
 
   Upload:

@@ -6,7 +6,7 @@ on:
     - cron: 0 20 * * *
 
 env:
-  SOURCE_URL: https://github.com/coolsnowwolf/lede
+  SOURCE_URL: https://github.com/fqdeng/lede
   SOURCE_BRANCH: master
   CONFIG_FILE: configs/armv8-plus.config
   DIY_SCRIPT: diy-script.sh
@@ -338,7 +338,7 @@ jobs:
           **This is Temporary Firmware for Armvirt 64**
           * 这是 ARMv8_PLUS 多功能版打包临时固件，不可直刷
           直刷固件参见 Tag 名为 ARMv8_PLUS 的 Releases
-          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/coolsnowwolf/lede)更新记录】
+          当前使用版本:【编译前的最后一次[➦主源码](https://github.com/fqdeng/lede)更新记录】
           ${{ env.VERSION_INFO }}
 
   Package:
@@ -407,5 +407,5 @@ jobs:
           安装到 EMMC：系统 → 晶晨宝盒 → 安装 OpenWrt → 选择型号 → 安装
           升级 OpenWrt：系统 → 晶晨宝盒 → 手动上传更新 或者 在线下载更新
           常见问题及注意事项请参考恩山F大➦[最新帖](https://www.right.com.cn/forum/thread-4076037-1-1.html)
-          当前使用版本:【编译前的最后一次➦[主源码](https://github.com/coolsnowwolf/lede)更新记录】
+          当前使用版本:【编译前的最后一次➦[主源码](https://github.com/fqdeng/lede)更新记录】
           ${{ env.VERSION_INFO }}
